@@ -54,8 +54,15 @@ try:
         
         elif choice == "🔍 Search Account":
             accNum = int(input("Enter Your Account Number: "))
-            account = a.searchAcc(accNum)
-            print(account)
+            node, depth = a.searchAcc(accNum)
+            if node:
+                print(f"\n✅ Account Found")
+                print(f"Account Number: {node.account.accNum}")
+                print(f"Account Name: {node.account.accName}")
+                print(f"Balance: ${node.account.balance:.2f}")
+                print(f"Tree Depth: {depth}\n")
+            else:
+                print(f"\n⚠️{accNum} is not found!")
         
         elif choice == "📋 In-order Traversal":
             print(a.inOrder(a.root))
