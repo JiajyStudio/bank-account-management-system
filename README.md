@@ -31,8 +31,16 @@ python backAccount.py
 This project stores bank accounts using a Binary Search Tree to provide efficient searching and insertion.
 
 ## Project Structure
-- ```bankAccount.py```: Main program and user interface.
-- ```accountClasses.py```: Contains the BST implementation and account operations.
+```text
+|-- Bank_Account_Management_System/
+|   |-- bankAccount.py  # Main application and user interface
+|   |-- accountClasses.py   # BST classes and account operations
+|   |-- requirements.txt    # Project dependencies
+|   |-- README.md           # Project documentation
+|   |-- .gitignore          # Git ignored files
+|   |-- screenshots/
+|   |   |-- ...
+```
 
 ## Technologies
 - Python
