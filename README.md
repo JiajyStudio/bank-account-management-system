@@ -12,6 +12,21 @@ A console-based bank account management system developed in Python using a Binar
 - Pre-order traversal
 - Post-order traversal
 
+## Installation
+### Clone the respository
+```bash
+git clone https://github.com/JiajyStudio/Bank_Account_Management_System.git
+cd Bank_Account_Management_System
+```
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### Run the Project
+```bash
+python backAccount.py
+```
+
 ## Data Structure
 This project stores bank accounts using a Binary Search Tree to provide efficient searching and insertion.
 
@@ -27,7 +42,21 @@ This project stores bank accounts using a Binary Search Tree to provide efficien
 ## UML Diagram
 ![UML_Diagram](screenshots/uml-diagram.png)
 
-## Screenshot
+## Preview
+### Main Menu
+![main-menu](screenshots/main_menu.png)
+### Add New Account
+![add-new-account](screenshots/add_new_account.png)
+### Search for Account
+![search-account](screenshots/search_account.png)
+### Deposit Money
+![deposit-money](screenshots/deposit_money.png)
+### Withdraw Money
+![withdraw-money](screenshots/withdraw_money.png)
+### Traversal
+![traversal](screenshots/traversal.png)
+### Error
+![error-handling](screenshots/error.png)
 
 ## Time Complexity
 | Operation | Best Case | Worst Case | Notes |
